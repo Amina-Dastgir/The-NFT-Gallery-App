@@ -1,0 +1,30 @@
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 50px;
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(15px);
+}
+
+.logo{
+font-size:32px;
+font-weight:bold;
+color:#fff;
+}
+
+.navbar ul{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+.navbar li{
+color:white;
+cursor:pointer;
+transition:.3s;
+}
+
+.navbar li:hover{
+color:#7c5cff;
+}
